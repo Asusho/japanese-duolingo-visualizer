@@ -259,11 +259,11 @@ class Duolingo:
             ]
         except KeyError:
             raise self.BreakingAPIChange(
-                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+                "API response does not conform to the schema 1. Perhaps the response from the server may have been changed."
             )
         except ValidationError:
             raise self.BreakingAPIChange(
-                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+                "API response does not conform to the schema 2. Perhaps the response from the server may have been changed."
             )
 
     def get_user_data(self) -> UserDataResponse:
@@ -284,7 +284,7 @@ class Duolingo:
             return response
         except ValidationError:
             raise self.BreakingAPIChange(
-                "API response does not conform to the schema. Perhaps the response from the server may have been changed."
+                "API response does not conform to the schema 3. Perhaps the response from the server may have been changed."
             )
 
 
