@@ -263,7 +263,8 @@ class Duolingo:
             raise self.BreakingAPIChange(
                 "API response does not conform to the schema 1. Perhaps the response from the server may have been changed."
             )
-        except ValidationError:
+        except ValidationError as e:
+            print(e)
             raise self.BreakingAPIChange(
                 "API response does not conform to the schema 2. Perhaps the response from the server may have been changed."
             )
