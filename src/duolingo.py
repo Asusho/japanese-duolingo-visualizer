@@ -265,9 +265,9 @@ class Duolingo:
             )
         except ValidationError as e:
             print(e)
-            raise self.BreakingAPIChange(
-                "API response does not conform to the schema 2. Perhaps the response from the server may have been changed."
-            )
+            # raise self.BreakingAPIChange(
+            #     "API response does not conform to the schema 2. Perhaps the response from the server may have been changed."
+            # )
 
     def get_user_data(self) -> UserDataResponse:
         """
