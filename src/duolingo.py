@@ -254,6 +254,7 @@ class Duolingo:
         As a note, `summaries` at position `0` will always show the latest time.
         """
         try:
+            print(self.daily_experience_progress["summaries"])
             return [
                 Summary(**data) for data in self.daily_experience_progress["summaries"]
             ]
