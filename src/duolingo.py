@@ -224,29 +224,29 @@ class Duolingo:
 
         ```json
         {
-          "summaries": [
-            {
-              "gainedXp": 15,
-              "frozen": false,
-              "streakExtended": true,
-              "date": 1713916800,
-              "userId": 211604374,
-              "repaired": false,
-              "dailyGoalXp": 20,
-              "numSessions": 1,
-              "totalSessionTime": 0
-            },
-            {
-              "gainedXp": 60,
-              "frozen": false,
-              "streakExtended": true,
-              "date": 1713830400,
-              "userId": 211604374,
-              "repaired": false,
-              "dailyGoalXp": 20,
-              "numSessions": 4,
-              "totalSessionTime": 0
-            }
+            "summaries": [
+                {
+                    "gainedXp": 15,
+                    "frozen": false,
+                    "streakExtended": true,
+                    "date": 1713916800,
+                    "userId": 211604374,
+                    "repaired": false,
+                    "dailyGoalXp": 20,
+                    "numSessions": 1,
+                    "totalSessionTime": 0
+                },
+                {
+                    "gainedXp": 60,
+                    "frozen": false,
+                    "streakExtended": true,
+                    "date": 1713830400,
+                    "userId": 211604374,
+                    "repaired": false,
+                    "dailyGoalXp": 20,
+                    "numSessions": 4,
+                    "totalSessionTime": 0
+                }
             ]
         }
         ```
