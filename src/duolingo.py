@@ -226,25 +226,25 @@ class Duolingo:
         {
             "summaries": [
                 {
-                    "date": 1659657600,
-                    "numSessions": 1,
                     "gainedXp": 100,
                     "frozen": false,
-                    "repaired": false,
                     "streakExtended": true,
+                    "date": 1659657600,
                     "userId": 1,
+                    "repaired": false,
                     "dailyGoalXp": 50,
+                    "numSessions": 1,
                     "totalSessionTime": 1
                 },
                 {
-                    "date": 1659571200,
-                    "numSessions": 1,
                     "gainedXp": 200,
                     "frozen": false,
-                    "repaired": false,
                     "streakExtended": true,
+                    "date": 1659571200,
                     "userId": 1,
+                    "repaired": false,
                     "dailyGoalXp": 50,
+                    "numSessions": 1,
                     "totalSessionTime": 1
                 }
             ]
